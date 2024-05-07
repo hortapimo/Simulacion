@@ -1,11 +1,7 @@
-cmake_minimum_required(VERSION 3.0.0)
-project(CMakeList VERSION 0.1.0 LANGUAGES C CXX)
+cmake_minimum_required(VERSION 3.25)
 
-include(CTest)
-enable_testing()
+project(main)#solo el nombre es obligatorio
 
-add_executable(CMakeList main.cpp)
+add_executable(main main.cpp funcionesAux.cpp particle.cpp sistema.cpp misVectores.cpp)
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+set(CMAKE_COLOR_DIAGNOSTICS ON)

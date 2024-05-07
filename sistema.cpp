@@ -2,5 +2,4 @@
 
 Sistema::Sistema(/* args */)
 {
-
 }

@@ -1,11 +1,13 @@
 #include "funcionesAux.hpp"
 #include <iostream>
 
-Sistema crearSistema(){
+Sistema crearSistema(std::vector<Particula> condicionesInciales){
 
 Sistema sistema;
 
-std::cout << "Dale viejooo, se creo el sistema\n";
+sistema.particulas = condicionesInciales;
+
+
 
 return sistema;
 }

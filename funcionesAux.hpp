@@ -1,11 +1,13 @@
 #ifndef _FUNCIONES_AUX_H_
 #define _FUNCIONES_AUX_H_
 
+#include <vector>
+
 #include "sistema.hpp"
+#include "particle.h"
 
 
-
-Sistema crearSistema();
+Sistema crearSistema(std::vector<Particula>);
 
 void simular(Sistema& sistema);
 

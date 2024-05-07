@@ -26,6 +26,7 @@ public:
 	Vector2D operator-(const Vector2D &);
 	Vector2D operator*(const double &);
 	Vector2D operator/(const double &);
+	Vector2D & operator=(const Vector2D &);
 };
 
 #endif

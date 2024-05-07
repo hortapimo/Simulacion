@@ -3,8 +3,9 @@
 int main(int argc, char** argv){
 
 #include "parametrosIniciales.hpp"
+#include "condicionesInciales.h"
 
-Sistema sistema = crearSistema();
+Sistema sistema = crearSistema(condicionesInciales);
 simular(sistema);
 guardarResultados(sistema);
 
