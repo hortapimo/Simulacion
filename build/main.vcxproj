@@ -301,11 +301,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\main.cpp" />
-    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\funcionesAux.cpp" />
-    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\particle.cpp" />
-    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\sistema.cpp" />
-    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\misVectores.cpp" />
+    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\main.cpp" />
+    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\funcionesAux.cpp" />
+    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\particle.cpp" />
+    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\sistema.cpp" />
+    <ClCompile Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\misVectores.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\build\ZERO_CHECK.vcxproj">
