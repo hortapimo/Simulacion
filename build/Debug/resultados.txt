@@ -1,0 +1,2 @@
+Hola, este es un texto de ejemplo.
+Aquí hay otra línea de texto.

@@ -1,10 +1,10 @@
 #ifndef _P_INICIALES_
 #define _P_INICIALES_
 
-float tInicial = 0;
-float tFinal = 10;
-float particionIntervalo = 1000;
+const float T_INICIAL = 0;
+const float T_FINAL = 10;
+const float particionIntervalo = 1000;
 
-float deltaT = (tFinal - tInicial)/particionIntervalo;
+const float DELTA_T = (T_FINAL -T_INICIAL)/particionIntervalo;
 
 #endif

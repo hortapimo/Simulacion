@@ -3,7 +3,7 @@
 
 #include "misVectores.h"
 
-class Particula
+class Particula //esto podria ser una estructura tranquilamente
 {
 private:
 
