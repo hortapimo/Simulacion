@@ -1,8 +1,12 @@
 #include "particle.h"
 
-Particula::Particula(int idAux, double xPosAux, double yPosAux): 
-    id{idAux}, xPos{xPosAux}, yPos{yPosAux} //esta es una forma de inicializar, 
-    //es la unica si hay que inicializar una clase.
+Particula::Particula(int idAux, Vector2D posAux, Vector2D velAux,
+     double masaAux, double cargaAux)
 {
+    masa = masaAux;
+    carga = cargaAux;
+    id = idAux;
+    Posicion = posAux;
+    Velocidad = velAux;
 }
 

@@ -6,6 +6,7 @@
 
 #include "sistema.hpp"
 #include "particle.h"
+#include "misVectores.h"
 
 
 Sistema crearSistema(std::vector<Particula>);
@@ -18,6 +19,10 @@ void guardarResultados(Sistema& sistema);
 
 void mostraResultados();
 
-void guardarPosiciones(Sistema&);
+void nuevasPosiciones(std::vector<Vector2D> aceleraciones, Sistema & sistema, float deltaT);
+
+std::vector<Vector2D> calculoAceleraciones(Sistema & sistema);
+
+void guardarPosiciones(Sistema&, float);
 
 #endif

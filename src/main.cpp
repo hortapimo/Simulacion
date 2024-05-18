@@ -7,8 +7,7 @@ int main(int argc, char** argv){
 
 Sistema sistema = crearSistema(condicionesInciales);
 simular(sistema);
-guardarResultados(sistema);
 
-mostraResultados();
+//mostraResultados();
 
 }
