@@ -103,8 +103,6 @@ void nuevasPosiciones(std::vector<Vector2D> aceleraciones, Sistema & sistema, fl
 
         deltaPos = sistema.particulas[i].Velocidad*deltaT;
         sistema.particulas[i].Posicion = sistema.particulas[i].Posicion + deltaPos; 
-
-        std::cout<< sistema.particulas[i].Posicion.GetX()<<"\n";
     }
 
 }
