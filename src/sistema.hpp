@@ -2,14 +2,14 @@
 #define _SISTEMA_H_
 
 #include <vector>
-#include"particle.h"
+#include"Particle.h"
 
 class Sistema
 {
 private:
 public:
     Sistema();
-    std::vector<Particula> particulas;
+    std::vector<Particle> particulas;
 };
 
 #endif

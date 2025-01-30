@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Simulador.dir/includes_CXX.rsp -g -fdiagnostics-color=always -o CMakeFiles\\Simulador.dir\\src\\Particle.cpp.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\src\\Particle.cpp",
+  "file": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/src/Particle.cpp",
+  "output": "CMakeFiles/Simulador.dir/src/Particle.cpp.obj"
+},
+{
+  "directory": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Simulador.dir/includes_CXX.rsp -g -fdiagnostics-color=always -o CMakeFiles\\Simulador.dir\\src\\Simulator.cpp.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\src\\Simulator.cpp",
+  "file": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/src/Simulator.cpp",
+  "output": "CMakeFiles/Simulador.dir/src/Simulator.cpp.obj"
+},
+{
+  "directory": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Simulador.dir/includes_CXX.rsp -g -fdiagnostics-color=always -o CMakeFiles\\Simulador.dir\\src\\Sistema.cpp.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\src\\Sistema.cpp",
+  "file": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/src/Sistema.cpp",
+  "output": "CMakeFiles/Simulador.dir/src/Sistema.cpp.obj"
+},
+{
+  "directory": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Simulador.dir/includes_CXX.rsp -g -fdiagnostics-color=always -o CMakeFiles\\Simulador.dir\\src\\main.cpp.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\src\\main.cpp",
+  "file": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/src/main.cpp",
+  "output": "CMakeFiles/Simulador.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Simulador.dir/includes_CXX.rsp -g -fdiagnostics-color=always -o CMakeFiles\\Simulador.dir\\src\\misVectores.cpp.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\src\\misVectores.cpp",
+  "file": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/src/misVectores.cpp",
+  "output": "CMakeFiles/Simulador.dir/src/misVectores.cpp.obj"
+},
+{
+  "directory": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/libs/visualizador",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/visu.dir/includes_CXX.rsp -g -o CMakeFiles\\visu.dir\\src\\Visualizador.cpp.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\libs\\visualizador\\src\\Visualizador.cpp",
+  "file": "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/src/Visualizador.cpp",
+  "output": "libs/visualizador/CMakeFiles/visu.dir/src/Visualizador.cpp.obj"
+}
+]

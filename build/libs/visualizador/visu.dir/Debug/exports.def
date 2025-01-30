@@ -1,0 +1,24 @@
+EXPORTS 
+	??$?0D@?$allocator@U_Container_proxy@std@@@std@@QEAA@AEBV?$allocator@D@1@@Z
+	??$_Deallocate@$0BA@$0A@@std@@YAXPEAX_K@Z
+	??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@@std@@YAXAEAV?$allocator@U_Container_proxy@std@@@0@QEAU_Container_proxy@0@@Z
+	??$_Delete_plain_internal@V?$allocator@U_Container_proxy@std@@@std@@@std@@YAXAEAV?$allocator@U_Container_proxy@std@@@0@QEAU_Container_proxy@0@@Z
+	??$_Destroy_in_place@PEAD@std@@YAXAEAPEAD@Z
+	??$exchange@PEAU_Iterator_base12@std@@$$T@std@@YAPEAU_Iterator_base12@0@AEAPEAU10@$$QEA$$T@Z
+	??1?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QEAA@XZ
+	??1?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ
+	?_Activate_SSO_buffer@?$_String_val@U?$_Simple_types@D@std@@@std@@QEAAXXZ
+	?_Adjust_manually_vector_aligned@std@@YAXAEAPEAXAEA_K@Z
+	?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QEAAAEAV?$allocator@D@2@XZ
+	?_Getal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV?$allocator@D@2@XZ
+	?_Large_string_engaged@?$_String_val@U?$_Simple_types@D@std@@@std@@QEBA_NXZ
+	?_Orphan_all@_Container_base12@std@@QEAAXXZ
+	?_Orphan_all_locked_v3@_Container_base12@std@@AEAAXXZ
+	?_Orphan_all_unlocked_v3@_Container_base12@std@@AEAAXXZ
+	?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?assign@?$_Narrow_char_traits@DH@std@@SAXAEADAEBD@Z
+	?deallocate@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAEAV?$allocator@U_Container_proxy@std@@@2@QEAU_Container_proxy@2@_K@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?mostrarResultado@Visualizador@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z

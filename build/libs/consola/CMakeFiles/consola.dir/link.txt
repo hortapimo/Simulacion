@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libconsola.a CMakeFiles/consola.dir/src/main.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libconsola.a

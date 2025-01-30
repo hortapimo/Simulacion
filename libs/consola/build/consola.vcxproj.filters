@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\docs\OneDrive\hobbies\programacion\Cmm\Aprendiendo\muchosDirectoriosCmake\consola\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\docs\OneDrive\hobbies\programacion\Cmm\Aprendiendo\muchosDirectoriosCmake\consola\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{20E3A4C3-AC0E-315D-BE78-490DF63EE00C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libvisu.a CMakeFiles/visu.dir/src/Visualizador.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libvisu.a

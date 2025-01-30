@@ -1,13 +1,17 @@
-#include "main.h"
+
+#include "particle.h"
+#include "Simulator.hpp"
+#include "Sistema.hpp"
+#include "visualizador.hpp"
 
 
 int main(int argc, char** argv){
 
 #include "condicionesInciales.h"
 
-Sistema sistema = crearSistema(condicionesInciales);
-simular(sistema);
+Sistema sistema = Simulator::crearSistema(condicionesInciales);
+Simulator::simular(sistema);
 
-//mostraResultados();
+Visualizador::mostrarResultado("aux");
 
 }

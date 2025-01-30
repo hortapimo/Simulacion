@@ -1,12 +1,12 @@
-#include "particle.h"
+#include "Particle.h"
 
-Particula::Particula(int idAux, Vector2D posAux, Vector2D velAux,
-     double masaAux, double cargaAux)
+Particle::Particle(int _id, Vector2D _pos, Vector2D _vel,
+     double _masa, double _carga)
 {
-    masa = masaAux;
-    carga = cargaAux;
-    id = idAux;
-    Posicion = posAux;
-    Velocidad = velAux;
+    this->masa = _masa;
+    this->carga = _carga;
+    this->id = _id;
+    this->Posicion = _pos;
+    this->Velocidad = _vel;
 }
 

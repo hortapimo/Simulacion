@@ -1,0 +1,3 @@
+C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/build/CMakeFiles/visu.dir
+C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/build/CMakeFiles/ZERO_CHECK.dir

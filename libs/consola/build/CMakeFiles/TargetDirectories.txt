@@ -1,0 +1,3 @@
+E:/docs/OneDrive/hobbies/programacion/Cmm/Aprendiendo/muchosDirectoriosCmake/consola/build/CMakeFiles/consola.dir
+E:/docs/OneDrive/hobbies/programacion/Cmm/Aprendiendo/muchosDirectoriosCmake/consola/build/CMakeFiles/ALL_BUILD.dir
+E:/docs/OneDrive/hobbies/programacion/Cmm/Aprendiendo/muchosDirectoriosCmake/consola/build/CMakeFiles/ZERO_CHECK.dir

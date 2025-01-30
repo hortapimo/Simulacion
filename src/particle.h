@@ -3,12 +3,12 @@
 
 #include "misVectores.h"
 
-class Particula //esto podria ser una estructura tranquilamente
+class Particle //esto podria ser una estructura tranquilamente
 {
 private:
 
 public:
-    Particula(int idAux, Vector2D posAux, Vector2D velAux,
+    Particle(int idAux, Vector2D posAux, Vector2D velAux,
      double masaAux, double cargaAux);
     
     int id;

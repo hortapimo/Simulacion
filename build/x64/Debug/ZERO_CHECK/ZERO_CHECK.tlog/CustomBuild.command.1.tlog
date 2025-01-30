@@ -1,6 +1,6 @@
 ^C:\USERS\HORTAPIMO\ONEDRIVE\HOBBIES\PROGRAMACION\SIMULACION\BUILD\CMAKEFILES\1F71F5822B92F1E66B5C48C794C32226\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion -BC:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/main.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion -BC:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/Simulador.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

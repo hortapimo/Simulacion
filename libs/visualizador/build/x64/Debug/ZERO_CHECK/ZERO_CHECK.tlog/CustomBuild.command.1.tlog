@@ -1,0 +1,10 @@
+^C:\USERS\HORTAPIMO\ONEDRIVE\HOBBIES\PROGRAMACION\SIMULACION\LIBS\VISUALIZADOR\BUILD\CMAKEFILES\8F10A3F49A5FF6D29BC7AFDAFFD2B9AE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador -BC:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/build/visu.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
