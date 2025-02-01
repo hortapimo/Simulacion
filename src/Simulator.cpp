@@ -53,7 +53,7 @@ namespace Simulator{
         // Verificar si el archivo se pudo abrir (es decir, si se creó correctamente)
         if (archivo.is_open()) {
             // Escribir en el archivo
-            archivo << "NumeroParticulas " << sistema.particulas.size()<<"\n";
+            archivo << sistema.particulas.size()<<"\n";
             std::cout <<"NumeroParticulas " << sistema.particulas.size()<<"\n";
             // Cerrar el archivo
             archivo.close();

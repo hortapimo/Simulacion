@@ -656,3 +656,191 @@ events:
       Running the CXX compiler's linker: "C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.40
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-idbjhx"
+      binary: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-idbjhx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-idbjhx'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c970a/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c970a.dir\\build.make CMakeFiles/cmTC_c970a.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-idbjhx'
+        Building C object CMakeFiles/cmTC_c970a.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_c970a.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-idbjhx\\CheckIncludeFile.c
+        Linking C executable cmTC_c970a.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c970a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c970a.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_c970a.dir/objects.a @CMakeFiles\\cmTC_c970a.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_c970a.dir/objects.a -Wl,--no-whole-archive -o cmTC_c970a.exe -Wl,--out-implib,libcmTC_c970a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c970a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-idbjhx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-t9nb6b"
+      binary: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-t9nb6b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-t9nb6b'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_aaa22/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_aaa22.dir\\build.make CMakeFiles/cmTC_aaa22.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-t9nb6b'
+        Building C object CMakeFiles/cmTC_aaa22.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_aaa22.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t9nb6b\\CheckIncludeFile.c
+        Linking C executable cmTC_aaa22.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_aaa22.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_aaa22.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_aaa22.dir/objects.a @CMakeFiles\\cmTC_aaa22.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_aaa22.dir/objects.a -Wl,--no-whole-archive -o cmTC_aaa22.exe -Wl,--out-implib,libcmTC_aaa22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_aaa22.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-t9nb6b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-nk6idb"
+      binary: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-nk6idb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-nk6idb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1d6ec/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1d6ec.dir\\build.make CMakeFiles/cmTC_1d6ec.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-nk6idb'
+        Building C object CMakeFiles/cmTC_1d6ec.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_1d6ec.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nk6idb\\CheckIncludeFile.c
+        Linking C executable cmTC_1d6ec.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1d6ec.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1d6ec.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1d6ec.dir/objects.a @CMakeFiles\\cmTC_1d6ec.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_1d6ec.dir/objects.a -Wl,--no-whole-archive -o cmTC_1d6ec.exe -Wl,--out-implib,libcmTC_1d6ec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1d6ec.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-nk6idb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-cdk1ez"
+      binary: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-cdk1ez"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-cdk1ez'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f0cec/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f0cec.dir\\build.make CMakeFiles/cmTC_f0cec.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-cdk1ez'
+        Building C object CMakeFiles/cmTC_f0cec.dir/SIZEOF_VOID_PTR.c.obj
+        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_f0cec.dir\\SIZEOF_VOID_PTR.c.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cdk1ez\\SIZEOF_VOID_PTR.c
+        Linking C executable cmTC_f0cec.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f0cec.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f0cec.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_f0cec.dir/objects.a @CMakeFiles\\cmTC_f0cec.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_f0cec.dir/objects.a -Wl,--no-whole-archive -o cmTC_f0cec.exe -Wl,--out-implib,libcmTC_f0cec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f0cec.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-cdk1ez'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt:332 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-bts93u"
+      binary: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-bts93u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/_deps/sfml-src/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-bts93u'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_924b7/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_924b7.dir\\build.make CMakeFiles/cmTC_924b7.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-bts93u'
+        Building C object CMakeFiles/cmTC_924b7.dir/CheckIncludeFile.c.obj
+        C:\\msys64\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_924b7.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Hortapimo\\OneDrive\\hobbies\\programacion\\Simulacion\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bts93u\\CheckIncludeFile.c
+        Linking C executable cmTC_924b7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_924b7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_924b7.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_924b7.dir/objects.a @CMakeFiles\\cmTC_924b7.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_924b7.dir/objects.a -Wl,--no-whole-archive -o cmTC_924b7.exe -Wl,--out-implib,libcmTC_924b7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_924b7.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/build/CMakeFiles/CMakeScratch/TryCompile-bts93u'
+        
+      exitCode: 0
+...

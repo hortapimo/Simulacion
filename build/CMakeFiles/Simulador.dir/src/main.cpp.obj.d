@@ -163,6 +163,5 @@ CMakeFiles/Simulador.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/12.2.0/bits/fstream.tcc \
  C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\Sistema.hpp \
  C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\Particle.h \
- C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/visualizador.hpp \
- C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/src/Visualizador.hpp \
+ C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/libs/visualizador/src/visualizador.hpp \
  C:\Users\Hortapimo\OneDrive\hobbies\programacion\Simulacion\src\condicionesInciales.h

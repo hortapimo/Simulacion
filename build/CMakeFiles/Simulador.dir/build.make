@@ -161,6 +161,10 @@ C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Si
 C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: CMakeFiles/Simulador.dir/src/misVectores.cpp.obj
 C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: CMakeFiles/Simulador.dir/build.make
 C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: libs/visualizador/libvisu.a
+C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: _deps/sfml-build/lib/libsfml-graphics-s-d.a
+C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a
+C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: _deps/sfml-build/lib/libsfml-window-s-d.a
+C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: _deps/sfml-build/lib/libsfml-system-s-d.a
 C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: CMakeFiles/Simulador.dir/linkLibs.rsp
 C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: CMakeFiles/Simulador.dir/objects1.rsp
 C:/Users/Hortapimo/OneDrive/hobbies/programacion/Simulacion/bin/Windows/Debug/Simulador.exe: CMakeFiles/Simulador.dir/link.txt

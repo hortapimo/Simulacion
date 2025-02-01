@@ -7,11 +7,10 @@
 
 int main(int argc, char** argv){
 
-#include "condicionesInciales.h"
+    #include "condicionesInciales.h"
 
-Sistema sistema = Simulator::crearSistema(condicionesInciales);
-Simulator::simular(sistema);
-
-Visualizador::mostrarResultado("aux");
+    Sistema sistema = Simulator::crearSistema(condicionesInciales);
+    Simulator::simular(sistema);
+    Visualizador::mostrarResultado("resultados.txt");
 
 }

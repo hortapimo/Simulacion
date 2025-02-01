@@ -13,13 +13,9 @@ endif()
 
 file(GLOB_RECURSE SOURCES "src/*.cpp")
 
-set(LibreriasPropias
-    libs/visualizador)
-
 add_executable(Simulador ${SOURCES})
 
 #agrego las "librerias" que voy creando
-include_directories("libs/visualizador")
 add_subdirectory("libs/visualizador")
 target_link_libraries(Simulador visu)
 
